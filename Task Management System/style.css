@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #153677, #4e085f);
+  padding: 10px;
+}
+
+.container {
+  width: 100%;
+  max-width: 540px;
+  background: #fff;
+  margin: 100px auto 20px;
+  padding: 40px 30px 70px;
+  border-radius: 10px;
+}
+
+#title {
+  text-align: center;
+  color: #002765;
+  margin-bottom: 2.5rem;
+}
+
+#enterTask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #edeef0;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+
+#enterTask input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+  font-weight: 14px;
+  font-size: 1rem;
+}
+
+#enterTask button {
+  border: none;
+  outline: none;
+  padding: 16px 50px;
+  background: #ff5945;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+ol li {
+  background: #edeef0;
+  margin-bottom: 10px;
+  padding: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 50px;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+ol li span {
+  flex: 1;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+ol li .task-actions {
+  display: flex;
+  gap: 10px;
+}
+
+ol li a {
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+ol li .edit-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+ol li .edit-btn:hover {
+  background-color: #218838;
+}
+
+ol li .delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+ol li .delete-btn:hover {
+  background-color: #c82333;
+}
+
+/* Update_Task */
+
+.update_container {
+  width: 100%;
+  max-width: 540px;
+  background: #fff;
+  margin: 100px auto 20px;
+  padding: 40px 30px 70px;
+  border-radius: 10px;
+}
+
+.update_title {
+  text-align: center;
+  color: #002765;
+  margin-bottom: 2.5rem;
+}
+
+#updateTask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #edeef0;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+
+#updateTask input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+  font-weight: 14px;
+  font-size: 1rem;
+}
+
+#updateTask button {
+  border: none;
+  outline: none;
+  padding: 16px 50px;
+  background: #ff5945;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 40px;
+}
